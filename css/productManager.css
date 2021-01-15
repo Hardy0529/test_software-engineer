@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* section1 */
+#section1 li {
+    font-size: 1.15rem;
+}
+#section1 ol {
+    padding: 0 0 0 2rem;
+}
+
+/* section2 */
+#section2 table {
+    width: 800px;
+    text-align: center;
+}
+
+#table2-1 tr:nth-child(odd) td {
+    background: #ffffff;
+}
+#table2-2 tr:nth-child(odd) td {
+    background: #ffffff;
+}
+#section2 table:first-of-type td:nth-child(3) {
+    text-align: left;
+}
+
+#table2-1 ol {
+    margin: 0 auto;
+    padding: 0 0 0 4rem;
+    font-size: 0.875rem;
+    text-align: justify;
+}
+#table2-2 ol {
+    margin: 0 auto;
+    padding: 0 0 0 1.25rem;
+    font-size: 0.875rem;
+    text-align: justify;
+}
+/* section 3 */
+#section3 table {
+    width: 800px;
+    text-align: center;
+}
+#section3 th {
+    background: #f7f7f7;
+}
+
+#section3 tr:nth-child(odd) td {
+    background: #f7f7f7;
+}
+#section3 table p {
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+#table4-1 {
+    width: 1000px;
+    text-align: center;
+    margin-top: 5rem;
+}
+#table4-1 tr:nth-child(odd) td {
+    background: #ffffff;
+}
+#table4-1 td {
+    padding: 1.25rem;
+}
+
+@media (max-width:767px) {
+    #section4 figure {
+        margin: 0 auto 3.125rem;
+    }    
+    #section4 .row {
+        padding: 2rem 0 2.5rem;
+    }
+    #section4 figure {
+        width: 200px;
+    }
+}

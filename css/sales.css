@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/* 文字基本設定 */
+body {
+    font-family: 'Noto Sans TC', "Microsoft JhengHei", sans-serif;
+    line-height: 1.5;
+    color: #102542;
+}
+
+/* 基本間距 文字大小*/
+section {
+    padding: 6.250rem 0;
+}
+
+figure {
+    margin: 3.125rem 0;
+}
+
+h1 {
+    padding: 0 0 3.750rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: justify;
+}
+h2 {
+    padding: 2.5rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 2.750em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.cta {
+    margin: 6.250rem 0;
+    padding: 1.125em 2rem;
+    font-size: 1.25rem;
+}
+.mb-for-first-p {
+    margin-bottom: 3.125rem;
+}
+.mb-for-p, .highlighter {
+    margin: 3.125rem 0;
+}
+ol, ul {
+    margin-bottom: 3.125rem;
+    /* list-style: none; */
+    padding: 0;
+}
+td {
+    padding: 1.25rem;
+}
+#section4 .row {
+    padding: 10rem 0 2.5rem;
+}
+.large-spacing {
+    margin: 5rem 0;
+}
+
+
+/* width */
+.w-20 {
+    width: 20%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-70 {
+    width: 70%;
+}
+
+/* custom blockquote */
+blockquote{
+    font-size: 1.5rem;
+    margin: 3.125rem auto;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid rgb(0, 190, 164);
+    line-height: 1.6;
+    position: relative;
+    background: #EDEDED;
+}
+  
+blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:rgb(0, 190, 164);
+    font-size:4rem;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+}
+  
+blockquote::after{
+    content: '';
+}
+
+/* link custom */
+.link {
+    margin: 0 0.5rem;
+}
+
+/* table custom */
+
+/* color */
+a {
+    color: rgb(0, 190, 164);
+    transition: all .3s;
+    
+}
+a:hover,a:focus {
+    color: #005C50;
+    text-decoration: none;
+}
+.gray-bg {
+    background: #f7f7f7;
+}
+.txt-green {
+    color: rgb(0, 190, 164);
+}
+.cta {
+    background-color: #ED217C;
+    border-color: #ED217C;
+}
+th {
+    color: #ED217C;
+    background: #fff;
+    padding: 1.25rem;
+}
+strong, em {
+    border-bottom: 2px solid #fa8b00;
+    
+}
+
+
+/* highlight style */
+.highlighter {
+    font-size: 2rem;
+    color: #ED217C;
+}
+
+.highlighter::before {
+
+}
+/* overlay */
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+}
+.noScroll {
+    overflow: hidden;
+}
+/* float menu */
+header {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    /* width: 224px; */
+    background: #ffffff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 100;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+}
+#category > li {
+    margin: 1rem 0;
+    font-size: 1.15rem;
+}
+header ol {
+    padding-left: 2rem;
+}
+.toggler {
+    transition: all .3s;
+}
+.toggler.rotate-up i {
+    transform: rotate(180deg);
+}
+#section4-sub {
+    padding: 0.875rem 0 0 0;
+}
+#section4-sub li {
+    margin-bottom: 0.5rem;
+}
+
+/* 麵包屑 */
+.breadcrumb {
+    background-color: transparent;
+}
+.breadcrumb-item {
+    font-size: 1.15rem;
+}
+
+
+/* job carousel */
+.cmp, .cmpTrade, .jobSalary, .exp, .gr, .jobContent {
+    font-size: 1rem;
+}
+.cmpName, .jobSalary, .story {
+    line-height: 1;
+}
+.card {
+    height: 360px;
+    margin: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px;
+    border-bottom: 6px solid rgb(0, 190, 164);
+}
+.card p {
+    /* margin: 0; */
+}
+.jobContent {
+    text-align: left;
+}
+.swiper-scrollbar {
+    background: transparent;
+}
+.moreLink {
+    height: 318px;
+    display: flex;
+    align-items: center;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main {
+    background: rgb(0, 190, 164);
+}
+.swiper-button-prev, .swiper-button-next {
+    color: rgb(0, 190, 164);
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    pointer-events: auto;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 24px;
+}
+/* section1 */
+#section1 li {
+    font-size: 1.15rem;
+}
+#section1 ol {
+    padding: 0 0 0 2rem;
+}
+
+/* section2 */
+#section2 table {
+    width: 800px;
+    text-align: center;
+}
+.tableTitle {
+    text-align: center;
+    margin: 1.625rem 0;    
+}
+.tableTitle span {
+    font-weight: 700;
+    padding-bottom: 0.25rem;
+    border-bottom: 3px solid;
+}
+#table2-1 tr:nth-child(odd) td {
+    background: #ffffff;
+}
+#table2-2 tr:nth-child(odd) td {
+    background: #ffffff;
+}
+#section2 table:first-of-type td:nth-child(3) {
+    text-align: left;
+}
+
+#table2-1 ol {
+    margin: 0 auto;
+    padding: 0 0 0 4rem;
+    font-size: 0.875rem;
+    text-align: justify;
+}
+#table2-2 ol {
+    margin: 0 auto;
+    padding: 0 0 0 1.25rem;
+    font-size: 0.875rem;
+    text-align: justify;
+}
+/* section 3 */
+#section3 table {
+    width: 800px;
+    text-align: center;
+}
+#section3 th {
+    background: #f7f7f7;
+}
+
+#section3 tr:nth-child(odd) td {
+    background: #f7f7f7;
+}
+#section3 table p {
+    font-size: 0.875rem;
+    margin: 0;
+}
+/* section 4 */
+#section4 figure {
+    width: 300px;
+    margin: 0 auto;
+}
+#table4-1 {
+    width: 1000px;
+    text-align: center;
+    margin-top: 5rem;
+}
+#table4-1 tr:nth-child(odd) td {
+    background: #ffffff;
+}
+#table4-1 td {
+    padding: 1.25rem;
+}
+
+@media (max-width:767px) {
+    #section4 figure {
+        margin: 0 auto 3.125rem;
+    }
+    section {
+        padding: 3.250rem 0;
+    }
+    h1 {
+        font-size: 2rem;
+        padding: 0 0 2.750rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    blockquote {
+        margin-bottom: 2.125rem auto;
+    }
+    #section4 .row {
+        padding: 2rem 0 2.5rem;
+    }
+    #section4 figure {
+        width: 200px;
+    }
+    header {
+        position: fixed;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #ffffff;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        z-index: 100;
+    }
+}
+@media (max-width:575px) {
+    .moreLink {
+        justify-content: center;
+    }
+}
